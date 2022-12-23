@@ -11,3 +11,4 @@ soupsieve==2.3.2.post1
 sqlparse==0.4.3
 tzdata==2022.7
 whitenoise==6.2.0
+python-dotenv==0.21.0

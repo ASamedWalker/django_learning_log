@@ -6,7 +6,7 @@ databases:
 services:
   - type: web
     name: learning_log
-    env: python3.10.6
+    env: python
     buildCommand: "./build.sh"
     startCommand: "gunicorn learning_log.wsgi:application"
     envVars:
